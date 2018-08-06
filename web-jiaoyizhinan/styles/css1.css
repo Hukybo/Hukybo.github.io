@@ -1,5 +1,46 @@
 *{
     margin: 0px;
     padding: 0px;
-    background-color: bisque;
+    font-family: "微软雅黑";
+}
+
+ul {
+    background-color: rgb(255, 112, 0);
+    list-style: none;
+    /* overflow: hidden; */
+    line-height: 40px;
+    text-align: center;
+    height: 40px;
+}
+
+#menu {
+    margin-left: auto;
+}
+
+li {
+    float: left;
+    width: 100px;
+    height: 40px;
+}
+
+li:hover {
+    color: #fff;
+    cursor: pointer;
+    background-color: rgb(255, 51, 0);
+}
+
+.menu {
+    display: none;
+}
+
+li:hover .menu {
+    display: inline-block;
+}
+
+#login {
+    background-color: cornflowerblue;
+    width: 350px;
+    height: 250px;
+    margin-left: 50%;
+    margin-top: 50px;
 }
