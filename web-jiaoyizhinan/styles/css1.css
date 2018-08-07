@@ -15,15 +15,14 @@
 #head1 {
     height: 40px;
     background-color: #FF8600;
+    display: flex;
+    justify-content: center;
 }
 
 #menu {
     height: 40px;
     line-height: 40px;
-    background-color: #FF8600;
     display: inline-block;
-    margin-left: auto;
-    padding: 0px 30px;
 }
 
 .submenu1 {
@@ -35,3 +34,16 @@
     display: none;
 }
 
+.submenu1:hover {
+    background-color: rgb(255, 51, 0);
+    color: #FFF;
+    cursor: pointer;
+}
+
+#logo {
+    margin: 100px;
+}
+
+#log-in {
+    left: 100px;
+}
