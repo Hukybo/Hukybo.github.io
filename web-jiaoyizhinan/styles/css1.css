@@ -1,46 +1,37 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: "微软雅黑";
+    text-decoration-line: none;
+    font-size: 18px;
 }
 
-ul {
-    background-color: rgb(255, 112, 0);
-    list-style: none;
-    /* overflow: hidden; */
-    line-height: 40px;
-    text-align: center;
+#head {
     height: 40px;
+    line-height: 40px;
+    background-color: #F5F5F5;
+}
+
+#head1 {
+    height: 40px;
+    background-color: #FF8600;
 }
 
 #menu {
-    margin-left: auto;
-}
-
-li {
-    float: left;
-    width: 100px;
     height: 40px;
+    line-height: 40px;
+    background-color: #FF8600;
+    display: inline-block;
+    margin-left: auto;
+    padding: 0px 30px;
 }
 
-li:hover {
-    color: #fff;
-    cursor: pointer;
-    background-color: rgb(255, 51, 0);
+.submenu1 {
+    display: inline-block;
+    padding: 0px 30px;
 }
 
-.menu {
+.submenu2 {
     display: none;
 }
 
-li:hover .menu {
-    display: inline-block;
-}
-
-#login {
-    background-color: cornflowerblue;
-    width: 350px;
-    height: 250px;
-    margin-left: 50%;
-    margin-top: 50px;
-}
