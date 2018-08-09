@@ -1,49 +1,68 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     font-family: "微软雅黑";
-    text-decoration-line: none;
-    font-size: 18px;
-}
-
-#head {
-    height: 40px;
-    line-height: 40px;
-    background-color: #F5F5F5;
-}
-
-#head1 {
-    height: 40px;
-    background-color: #FF8600;
-    display: flex;
-    justify-content: center;
 }
 
 #menu {
-    height: 40px;
-    line-height: 40px;
-    display: inline-block;
+    
 }
 
-.submenu1 {
+p {
+    background: rgb(255, 122, 0);
+    height: 40px;
+    color: #FFF;
+    font-size: 18px;
     display: inline-block;
+    line-height: 40px;
     padding: 0px 30px;
 }
 
-.submenu2 {
-    display: none;
+.menu {
+    font-size: 18px;
+
 }
 
-.submenu1:hover {
-    background-color: rgb(255, 51, 0);
+.menu li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+.menu a {
+    display: block;
+    height: 40px;
+    padding: 0px 30px;
+    line-height: 40px;
+    background: rgb(255, 122, 0);
     color: #FFF;
-    cursor: pointer;
+    /* 文本装饰 */
+    text-decoration: none;
 }
 
-#logo {
-    margin: 100px;
+.menu a:hover {
+    background: rgb(255, 45, 0);
 }
 
-#log-in {
-    left: 100px;
+/*新增的二级菜单部分*/
+
+.menu ul ul {
+    /* 默认隐藏 */
+    visibility: hidden;
+    position: absolute;
+    left: 0px;
+    top: 40px;
+}
+
+.menu ul li:hover ul,
+/*非IE6*/
+
+.menu ul a:hover ul {
+    /*IE6*/
+    visibility: visible;
+}
+
+.menu ul ul li {
+    /* 不允许有浮动 */
+    clear: both;
 }
