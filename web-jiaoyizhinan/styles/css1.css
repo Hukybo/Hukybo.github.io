@@ -4,8 +4,13 @@
     font-family: "微软雅黑";
 }
 
+body {
+    background-color: #FFF1E5;
+}
+
 #menu {
-    
+    height: 40px;
+    background: rgb(255, 122, 0);
 }
 
 p {
@@ -29,6 +34,10 @@ p {
     position: relative;
 }
 
+a {
+    text-decoration: none;
+}
+
 .menu a {
     display: block;
     height: 40px;
@@ -37,7 +46,7 @@ p {
     background: rgb(255, 122, 0);
     color: #FFF;
     /* 文本装饰 */
-    text-decoration: none;
+    
 }
 
 .menu a:hover {
